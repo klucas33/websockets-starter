@@ -16,7 +16,8 @@ const server = http.createServer(app); // http 서버
 const wss = new WebSocket.Server({ server });
 
 wss.on("connection", (socket) => {
-  socket.send("fuck");
+  console.log("Connected to Browser ✅");
+  socket.send("hello!");
 });
 
 // Put all your backend code here.
