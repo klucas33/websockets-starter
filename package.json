@@ -2,9 +2,6 @@
   "name": "websockets-starter-this",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "14.x"
-  },
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",

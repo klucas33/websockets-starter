@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "./home.pug",
+      "src": "./views/home.pug",
       "use": "@vercel/node"
     }
   ],
