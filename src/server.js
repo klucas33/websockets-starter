@@ -2,8 +2,8 @@ import http from "http";
 import WebSocket from "ws";
 import express from "express";
 
-const app = express();
 require("dotenv").config();
+const app = express();
 
 app.set("view engine", "pug");
 app.set("views", __dirname + "/views");
